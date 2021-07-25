@@ -1,44 +1,127 @@
 <html>
-    <head>
-        <title>Kedai Kek Cawan</title>
-    </head>
-    <body>
-    <center>
-        <table width="80%" border="3">
-            <tr>
-                <th width="30%">
-                    <img src="images/fits logo.jpg" alt="" srcset="">
-                </th><th><h1>Selamat Datang</h1></th>
-            </tr>
-        </table>
-        <br>
-        <table width="80%" border="1">
-            <tr>
-                <td width="25%">
-                    <h4>Senarai Menu</h4>
-                    <ul>
-                        <li><h4><a href="index.html">UTAMA</a></h4></li>
-                        <li><h4><a href="#">KEDAI KAMI</a></h4></li>
-                        <li><h4><a href="#">TENTANG KAMI</a></h4></li>
-                        <li><h4><a href="#">HUBUNGI KAMI</a></h4></li>
-                    </ul>
-                </td>
-                <td width="75%" align="center">
-                    <img src="images/kek.jpg" width="40%">
-                    <p>Sila komen tentang produk ini <a href="komen.html">di sini</a></p>
-                </td>
-            </tr>
-        </table>
+  <head>
+    <title>
+      Kedai Kek Oversea
+    </title>
+    <style>
+      .header {
+        overflow: hidden;
+        border: double;
+        margin: auto;
+      }
+      .header_logo {
+        float: left;
+        border-right: double;
+        padding: 10px;
+        width: 30%;
+      }
+      .header_logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .header_greeting {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 40;
+        font-weight: bold;
+      }
+      .vertical {
+        overflow: hidden;
+        border: double;
+        margin: auto;
+        margin-top: 10px;
+      }
+      .menu {
+        width: 30%;
+        margin-top: 10px;
+        float: left;
+        margin: auto;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 5px;
+        margin: auto;
+      }
+      a {
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+      }
+      .kandungan {
+        margin: auto;
+        float: left;
+        boder-left: double;
+        width: 65%;
+        padding: 10px;
+        text-align: center;
+      }
+      .kandungan img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+      }
+      .kandungan {
+        margin: auto;
+        float: left;
+        border-left: double;
+        width: 65%;
+        padding: 10px;
+        text-align: center;
+      }
+      .kandungan img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+      }
+      .kaki {
+        margin: auto;
+        border-style: double;
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        margin-top: 10px;
+      }
 
+      
+    </style>
+  </head>
+  
+  <body>
+    <!--HEADER-->
+    <div class="header">
+      <div class="header_logo"><img src="logo.jpg"></div>
+      <div class="header_greeting"><h1>Selamat Datang</h1></div>
+      </div>
+    
+    <div class="vertical">
+      <!--MENU-->
+      <div class="menu">
+        Senarai Menu
+      <ul>
+        <li><a href="#">UTAMA</a></li>
+        <li><a href="#">KEDAI KAMI</a></li>
+        <li><a href="#">TENTANG KAMI</a></li>
+        <li><a href="#">HUBUNGI KAMI</a></li>
+      </ul>
+    </div>
+      
+      <!--CONTENT-->
+      <div class="kandungan">
+        <img src="kek.jpg" width="150px">
         <br>
+        Sila komen tentang produk ini
+        <a href="komen.html">di sini</a>
+      </div>
+    </div>
+    
+    <!--FOOTER-->
+    <div class="kaki">
+      &copy;KEDAI KEK OVERSEA, 2021
+    </div>
 
-        <table width="80%" border="3">
-            <tr>
-                <td align="center">
-                    &copy; KEDAI KEK ALIF BA TA, 1999
-                </td>
-            </tr>
-        </table>
-    </center>
-    </body>
+  </body>
 </html>
